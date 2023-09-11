@@ -13,5 +13,6 @@ This is the summary statistics of all numeric variables in the cereal dataset. T
 <img width="573" alt="Screen Shot 2023-09-10 at 4 54 05 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/5e2ed863-c0c6-41e1-b8ff-45431ae33650">
 
 This is the histogram of the calories variable. 
+
 ![Histogram](https://github.com/nogibjj/KatherineT.W2/assets/143833511/f400a3a4-8163-487b-9755-2447c46e0800)
  
