@@ -3,7 +3,6 @@ Main function goes here
 """
 
 #import pandas and pyplot
-import pandas as pd
 import matplotlib.pyplot as plt
 
 #define summary statistics function
