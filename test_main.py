@@ -10,7 +10,6 @@ def test_sum_stats():
     #read dataset
     cereal = pd.read_csv("cereal.csv",sep=";")
     summary = sum_stats(cereal)
-
     assert cereal['calories'].mean() == summary.loc['mean', 'calories']
     assert cereal['protein'].median() == summary.loc['50%', 'protein'], "Median test failed"
     assert cereal['rating'].min() == summary.loc['min', 'rating'], "Standard deviation test failed"
