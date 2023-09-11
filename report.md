@@ -3,4 +3,4 @@
 
 2. Histogram of Calories
    
-![histogram](https://github.com/nogibjj/KatherineT.W2/assets/143833511/8ca1992b-7d54-4143-b7c9-3a62259e33cc)
+![Histogram](https://github.com/nogibjj/KatherineT.W2/assets/143833511/f9568417-f733-49f4-abfd-82a9a230f73d)
