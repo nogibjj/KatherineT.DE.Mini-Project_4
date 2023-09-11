@@ -4,6 +4,6 @@ The purpose of the project is to use the previous template and pandas to analyze
 
 ## Steps
 1. Add python to requirement.txt
-2. In main.py, define two functions. One returns the summary statistics and the other visualizae the data.
+2. In main.py, define two functions. One returns the summary statistics and the other visualizes the data.
 3. Add test cases in test_main.py. 
 
