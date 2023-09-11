@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 #define summary statistics function
 def sum_stats(data):
     return data.describe()
-
+ 
 #define visualization function
 def visualization(data):
     plt.hist(data["calories"], bins=10, color="purple")
