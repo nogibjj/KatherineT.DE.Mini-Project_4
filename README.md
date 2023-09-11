@@ -11,9 +11,7 @@ The purpose of the project is to use the previous template and pandas to analyze
 Use make test command to test the code
 <img width="954" alt="Screen Shot 2023-09-10 at 11 12 38 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/31148657-b039-411b-b216-1c593fb48600">
 
-
 Use make lint and format command to check the format
-
 <img width="582" alt="Screen Shot 2023-09-10 at 11 14 20 PM" src="https://github.com/nogibjj/KatherineT.W2/assets/143833511/045bb7e5-37da-4b97-9c20-2ad734453bc0">
 
 
