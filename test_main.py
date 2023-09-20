@@ -2,7 +2,7 @@
 Test Cases
 """
 # import functions
-from main import sum_stats, visualization
+from main import sum_stats, visualization,generate_markdown
 import pandas as pd
 
 
@@ -11,6 +11,7 @@ def test_sum_stats():
     # read dataset
     cereal = pd.read_csv("cereal.csv", sep=";")
     visualization(cereal)
+    generate_markdown(cereal)
     summary = sum_stats(cereal)
     assert (
         cereal["calories"].mean() == summary.loc["mean", "calories"]

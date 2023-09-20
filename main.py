@@ -20,3 +20,16 @@ def visualization(data):
     plt.show()
     plt.savefig("cereal.png")
     return
+
+def generate_markdown(data):
+    """generate an md file with outputs"""
+    markdown_table = sum_stats(data)
+    markdown_table = str(markdown_table)
+
+    # Write the markdown table to a file
+    with open("output.md", "w", encoding="utf-8") as file:
+        file.write("Describe:\n")
+        file.write(markdown_table)
+        file.write("\n\n")  # Add a new line
+        file.write("![age](age.png)\n")
+    
