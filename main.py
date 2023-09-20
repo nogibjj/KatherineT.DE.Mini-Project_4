@@ -31,5 +31,5 @@ def generate_markdown(data):
         file.write("Describe:\n")
         file.write(markdown_table)
         file.write("\n\n")  # Add a new line
-        file.write("![age](age.png)\n")
+        file.write("![cereal](cereal.png)\n")
     
