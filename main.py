@@ -28,7 +28,7 @@ def generate_markdown(data):
 
     # Write the markdown table to a file
     with open("output.md", "w", encoding="utf-8") as file:
-        file.write("Describe:\n")
+        file.write("Summary:\n")
         file.write(markdown_table)
         file.write("\n\n")  # Add a new line
         file.write("![cereal](cereal.png)\n")
