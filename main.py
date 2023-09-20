@@ -32,4 +32,3 @@ def generate_markdown(data):
         file.write(markdown_table)
         file.write("\n\n")  # Add a new line
         file.write("![cereal](cereal.png)\n")
-    
