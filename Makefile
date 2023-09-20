@@ -9,7 +9,7 @@ format:
 	black *.py 
 
 lint:
-	ruff check *.py  
+	ruff check *.py 
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
