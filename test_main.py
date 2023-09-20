@@ -9,6 +9,7 @@ import pandas as pd
 def test_sum_stats():
     #read dataset
     cereal = pd.read_csv("cereal.csv",sep=";")
+    visualization(cereal)
     summary = sum_stats(cereal)
     assert cereal['calories'].mean() == summary.loc['mean', 'calories'], "Mean test failed"
     assert cereal['protein'].median() == summary.loc['50%', 'protein'], "Median test failed"
