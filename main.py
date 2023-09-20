@@ -16,4 +16,5 @@ def visualization(data):
     plt.ylabel("Frequency")
     plt.title("Cereal Calories Histogram")
     plt.show()
+    plt.savefig("cereal.png")
     return
