@@ -1,30 +1,27 @@
 """
-Test Cases
+Test goes here
+
 """
-# import functions
-from main import sum_stats, visualization,generate_markdown
-import pandas as pd
 
+from main import read,generate_report
 
-# define test function
-def test_sum_stats():
-    # read dataset
-    cereal = pd.read_csv("cereal.csv", sep=";")
-    visualization(cereal)
-    generate_markdown(cereal)
-    summary = sum_stats(cereal)
+#read dataset
+
+def test_csv():
+    cereal = read("cereal.csv",";")
     assert (
-        cereal["calories"].mean() == summary.loc["mean", "calories"]
+        cereal["calories"].max() == 160
     ), "Mean test failed"
     assert (
-        cereal["protein"].median() == summary.loc["50%", "protein"]
+        cereal["protein"].median() == 3
     ), "Median test failed"
     assert (
-        cereal["rating"].min() == summary.loc["min", "rating"]
-    ), "Standard deviation test failed"
+        cereal["fat"].count() == 77
+    ), "Count test failed"
     print("All Test passed!")
-
-
-# test
+ 
 if __name__ == "__main__":
-    test_sum_stats()
+    test_csv()
+    generate_report()
+
+

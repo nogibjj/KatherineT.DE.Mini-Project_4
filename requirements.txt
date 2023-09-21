@@ -14,7 +14,7 @@ uvicorn==0.18.3
 
 #other packages to be installed
 polars 
-matplotlib
+matplotlib==3.2.2
 pandas
 #scikit-learn
 ydata_profiling
