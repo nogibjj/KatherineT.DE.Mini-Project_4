@@ -21,3 +21,4 @@ Histogram of Calories
 
 ![Histogram](https://github.com/nogibjj/KatherineT.W2/assets/143833511/f400a3a4-8163-487b-9755-2447c46e0800)
  
+ 
