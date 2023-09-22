@@ -16,5 +16,4 @@ uvicorn==0.18.3
 polars 
 matplotlib
 pandas
-#scikit-learn
 ydata_profiling
