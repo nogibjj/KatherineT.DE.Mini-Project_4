@@ -16,9 +16,7 @@ Use make test to test three versions of python
 <img width="1440" alt="Screen Shot 2023-09-21 at 8 41 57 PM" src="https://github.com/katherinetian540/KatherineT.DE.Mini-Project_4/assets/143833511/1a8cb84a-4115-4869-a60e-9ce9061cbdb9">
 
 ## Output
-Tests passed. Output can also be found in the files.
-
-
+Histogram of Calories
 
 
 ![Histogram](https://github.com/nogibjj/KatherineT.W2/assets/143833511/f400a3a4-8163-487b-9755-2447c46e0800)
