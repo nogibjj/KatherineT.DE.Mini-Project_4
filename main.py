@@ -19,7 +19,7 @@ cereal = read("cereal.csv",";")
 # compute summary statistics
 summary = cereal.describe()
 
-# plot a histogram of the "Age" column
+# plot a histogram of calories
 plt.hist(cereal["calories"], bins=10, color="purple")
 plt.xlabel("Calories")
 plt.ylabel("Frequency")
