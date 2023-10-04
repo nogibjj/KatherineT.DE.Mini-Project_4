@@ -8,12 +8,24 @@ Add three versions of python to requirement.txt
 ## Check format and test
 
 Use make lint and format command to check the format
+3.9
+<img width="941" alt="Screen Shot 2023-10-04 at 1 15 59 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_4/assets/143833511/8fee5768-4122-4b1a-804a-5531b3553560">
 
-<img width="667" alt="Screen Shot 2023-09-21 at 8 18 04 PM" src="https://github.com/katherinetian540/KatherineT.DE.Mini-Project_4/assets/143833511/97867063-ed3f-4c2c-abc2-f1ff951fd9e6">
+<img width="712" alt="Screen Shot 2023-10-04 at 1 17 49 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_4/assets/143833511/b4fe3744-aa15-4f9d-a742-761beeca1d02">
+
+3.10
+<img width="537" alt="Screen Shot 2023-10-04 at 1 19 36 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_4/assets/143833511/2f15d102-6995-4e55-a9f8-88dfd602fa08">
+
+3.11
+<img width="474" alt="Screen Shot 2023-10-04 at 1 19 57 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_4/assets/143833511/dca8ad9b-5eef-4d1a-a967-f099c808b5be">
+
 
 Use make test to test three versions of python
+<img width="466" alt="Screen Shot 2023-10-04 at 1 13 18 PM" src="https://github.com/nogibjj/KatherineT.DE.Mini-Project_4/assets/143833511/d50c53a2-5d42-43a1-bef6-3200bde55c10">
 
-<img width="1440" alt="Screen Shot 2023-09-21 at 8 41 57 PM" src="https://github.com/katherinetian540/KatherineT.DE.Mini-Project_4/assets/143833511/1a8cb84a-4115-4869-a60e-9ce9061cbdb9">
+
+
+
 
 ## Output
 Histogram of Calories
